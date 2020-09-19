@@ -1,0 +1,40 @@
+*{
+  text-align: center;
+  background-color:black;
+}
+.App {
+  text-align: center;
+  background-color:black;
+}
+.outer{
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  grid-gap:15px;
+}
+.inner{
+  cursor:pointer;
+  border:1px solid white;
+  color:white;
+  font-style:calibri;
+}
+.inner:hover{
+  opacity: .4;
+}
+.text{
+  margin-top:5px;
+  width:180px;
+  height:30px;
+  border-radius:4px;
+  margin-bottom:15px;
+  color:white;
+  font-weight: 600;
+  border:1px solid white;
+}
+.text:hover{
+  border:1px solid red;
+}
+.movie{
+  color:white;
+}
