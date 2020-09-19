@@ -23,7 +23,7 @@ const Movie = (props) => {
         <>
         <h1 className="movie">Movie lookup</h1>
             <SearchArea findResult={findResult} findingResult={findingResult} />
-            {movie.length<1?<h1 style={{color:'white'}}>No result found..</h1>:<Display movie={movie}/>}
+            {movie.length<0?<h1 style={{color:'white'}}>No result found..</h1>:<Display movie={movie}/>}
         </>
     )
 }
